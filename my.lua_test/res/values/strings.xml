@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="welcome">跟 Lua Camera Script 說 hello  !\nes_Lua_Script_Camera\n2012.05.26版 by erspicu_brox. </string>
+    <string name="app_name">ez_LSC</string>    
+    <string name="run_script">Execute Script</string>
+	<string name="choose_script">Choose Script</string>
+	<string name="audio_rec">Audio Rec</string>
+	<string name="video_rec">Video Rec</string>
+	<string name="about">About</string>
+	<string name="video_rec_ing">正在錄影,無法啟動執行</string>
+	<string name="audio_rec_ing">正在錄音,無法啟動執行</string>
+	<string name="script_running">正在執行腳本,無法啟動執行</string>
+	<string name="af_ok">對焦成功</string>
+	<string name="af_fail">對焦失敗</string>
+	<string name="creator">ez_Lua_Script_Camera 建立</string>
+	<string name="run_start">開始執行</string>
+	<string name="run_end">執行結束</string>
+	<string name="choose_lua">請選擇 Lua Camera Script 檔</string>
+	<string name="load">載入</string>
+	<string name="file">檔案</string>
+	<string name="stop">停止</string>
+	<string name="video_rec_start">錄影開始..</string>
+	<string name="video_rec_end">錄影結束..</string>
+	<string name="audio_rec_start">錄音開始..</string>
+	<string name="audio_rec_end">錄音結束..</string>
+	<string name="file_load_fail">無法讀檔,請確定檔案是否存在</string>
+	<string name="file_load_no">還沒有選擇Lua Script ,無法執行</string>
+	
+    
+
+</resources>

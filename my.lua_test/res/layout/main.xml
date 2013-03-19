@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+     >
+
+        <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="640px"
+        android:layout_height="480px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+         />
+        
+                          <SurfaceView
+        android:id="@+id/surface_level"
+        android:layout_width="640px"
+        android:layout_height="480px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+         />        
+       
+         <Button
+        android:id="@+id/run_script"
+        android:layout_width="220px"
+        android:layout_height="70px"
+        android:text="@string/run_script"
+        android:layout_x="636px"
+        android:layout_y="0dp" 
+         />
+                
+                        
+         <Button
+        android:id="@+id/lua"
+        android:layout_width="220px"
+        android:layout_height="70px"
+        android:text="@string/choose_script"
+        android:layout_x="636px"
+        android:layout_y="63px"
+         />          
+         
+        <Button
+        android:id="@+id/audio"
+        android:layout_width="220px"
+        android:layout_height="70px"
+        android:text="@string/audio_rec"
+        android:layout_x="636px"
+        android:layout_y="126px"
+         />    
+
+         <Button
+        android:id="@+id/movie"
+        android:layout_width="220px"
+        android:layout_height="70px"
+        android:text="@string/video_rec"
+        android:layout_x="636px"
+         android:layout_y="189px"
+         />
+       
+       
+        <Button
+        android:id="@+id/about"
+        android:layout_width="220px"
+        android:layout_height="70px"
+        android:text="@string/about"
+        android:layout_x="636px"
+         android:layout_y="252px"
+         />
+       
+         <TextView
+          android:id="@+id/debug_screen"
+          android:layout_width="220dp"
+          android:layout_height="163dp"
+          android:textColor="#ffffffff"
+          android:background="#3b3b3bff"
+          android:textSize="14px"
+          android:layout_x="640px"
+          android:layout_y="317px"
+          android:text="" />
+         
+                     <DigitalClock
+                         android:id="@+id/digitalClock1"
+                         android:layout_width="125px"
+                         android:layout_height="28px"
+                         android:textColor="#ffff0000"
+                         android:textSize="20px"
+                        android:background="#883b3bff"
+                         android:layout_x="0px"
+                         android:layout_y="0px"              
+                         android:text="DigitalClock" /> 
+         
+                  <TextView
+          android:id="@+id/inf_screen"
+          android:layout_width="110px"
+          android:layout_height="28px"
+          android:textColor="#ffff0000"
+          android:background="#883b3bff"
+          android:textSize="20px"
+          android:layout_x="125px"
+          android:layout_y="0px"
+          android:text="電力90x%" />
+           
+                     <!--                 <TextView
+          android:id="@+id/mode_screen"
+          android:layout_width="140px"
+          android:layout_height="28px"
+          android:textColor="#ffff0000"
+          android:background="#883b3bff"
+          android:textSize="20px"
+          android:layout_x="235px"
+          android:layout_y="0px"
+          android:text="模式 :  腳本" /> -->
+                                    
+                                              <TextView
+          android:id="@+id/lua_file_screen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#ffff0000"
+          android:background="#443b3bff"
+          android:textSize="20px"
+          android:layout_x="0px"
+          android:layout_y="28px"
+          android:text="" />                          
+                                    
+                                    
+                  
+                     <TextView
+          android:id="@+id/shutter_times_screen"
+          android:layout_width="160px"
+          android:layout_height="28px"
+          android:textColor="#ffff0000"
+          android:background="#883b3bff"
+          android:textSize="20px"
+          android:layout_x="0px"
+          android:layout_y="452px"
+          android:text="拍攝張數 : 00000" />
+                     
+                                          <TextView
+          android:id="@+id/save_file"
+          android:layout_width="380px"
+          android:layout_height="28px"
+          android:textColor="#ffff0000"
+          android:background="#883b3bff"
+          android:textSize="20px"
+          android:layout_x="160px"
+          android:layout_y="452px"                                                   
+          android:text="" />
+
+                     <!--   <ImageView
+                         android:id="@+id/imageView1"
+                         android:layout_width="302px"
+                         android:layout_height="21px"
+                         android:layout_x="169px"
+                         android:layout_y="230px"
+                         android:src="@raw/level" /> -->
+                     
+                       <!--                    <ImageView
+                         android:id="@+id/spirit_level"
+                         android:layout_width="402px"
+                         android:layout_height="21px"
+                         android:layout_x="119px"
+                         android:layout_y="227px"
+                         android:src="@raw/line" /> -->
+                                          
+                        
+                                          
+                       
+       
+</AbsoluteLayout>
+        
+ 
+    
+
